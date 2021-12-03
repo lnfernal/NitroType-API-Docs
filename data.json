@@ -20,42 +20,42 @@
       "description": "???",
       "method": "POST",
       "uhash": "false",
-      "apiScope": "???",
+      "apiScope": "???"
     },
     {
       "endpoint": "teams/<tag>",
       "description": "Fetch information from a team.",
       "method": "GET",
       "uhash": "true",
-      "apiScope": "fetchDetails",
+      "apiScope": "fetchDetails"
     },
     {
       "endpoint": "teams/<teamID>/accept-invite",
       "description": "Accept a team invite.",
       "method": "POST",
       "uhash": "true",
-      "apiScope": "acceptTeamInvite",
+      "apiScope": "acceptTeamInvite"
     },
     {
       "endpoint": "teams/<teamID>/apply",
       "description": "Apply for a team.",
       "method": "POST",
       "uhash": "true",
-      "apiScope": "applyForTeam",
+      "apiScope": "applyForTeam"
     },
     {
       "endpoint": "teams/<teamId>/ignore-invite",
       "description": "Ignore a team invite.",
       "method": "POST",
       "uhash": "true",
-      "apiScope": "ignoreTeamInvite",
+      "apiScope": "ignoreTeamInvite"
     },
     {
       "endpoint": "teams/applications",
       "description": "Fetch team applications.",
       "method": "GET",
       "uhash": "true",
-      "apiScope": "fetchApplications",
+      "apiScope": "fetchApplications"
     },
     {
       "endpoint": "teams/boost",
@@ -101,7 +101,7 @@
       "description": "Leave a team.",
       "method": "POST",
       "uhash": "true",
-      "apiScope": "leaveTeam",
+      "apiScope": "leaveTeam"
     },
     {
       "endpoint": "teams/motd",
