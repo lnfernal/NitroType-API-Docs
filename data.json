@@ -1,0 +1,148 @@
+{
+  "achievements": [],
+  "auth": [],
+  "cars": [],
+  "classes": [],
+  "friends": [],
+  "items": [],
+  "news": [],
+  "players": [],
+  "purchase": [],
+  "race": [],
+  "referrals": [],
+  "rewards": [],
+  "scoreboard": [],
+  "settings": [],
+  "stats": [],
+  "teams": [
+    {
+      "endpoint": "teams/<???>/invite",
+      "description": "???",
+      "method": "POST",
+      "uhash": "false",
+      "apiScope": "???",
+    },
+    {
+      "endpoint": "teams/<tag>",
+      "description": "Fetch information from a team.",
+      "method": "GET",
+      "uhash": "true",
+      "apiScope": "fetchDetails",
+    },
+    {
+      "endpoint": "teams/<teamID>/accept-invite",
+      "description": "Accept a team invite.",
+      "method": "POST",
+      "uhash": "true",
+      "apiScope": "acceptTeamInvite",
+    },
+    {
+      "endpoint": "teams/<teamID>/apply",
+      "description": "Apply for a team.",
+      "method": "POST",
+      "uhash": "true",
+      "apiScope": "applyForTeam",
+    },
+    {
+      "endpoint": "teams/<teamId>/ignore-invite",
+      "description": "Ignore a team invite.",
+      "method": "POST",
+      "uhash": "true",
+      "apiScope": "ignoreTeamInvite",
+    },
+    {
+      "endpoint": "teams/applications",
+      "description": "Fetch team applications.",
+      "method": "GET",
+      "uhash": "true",
+      "apiScope": "fetchApplications",
+    },
+    {
+      "endpoint": "teams/boost",
+      "description": "Add a reaction (boost) to a motd.",
+      "method": "POST",
+      "uhash": "true",
+      "apiScope": "addMotdBoost",
+      "parameters": [
+        "boostID",
+        "teamMotdID"
+      ]
+    },
+    {
+      "endpoint": "teams/create",
+      "description": "Create a team.",
+      "method": "POST",
+      "uhash": "true",
+      "apiScope": "createTeam",
+      "parameters": [
+        "tag",
+        "name",
+        "tagColor",
+        "minRaces",
+        "minSpeed",
+        "otherRequirements",
+        "password",
+        "enrollment",
+        "autoRemove"
+      ]
+    },
+    {
+      "endpoint": "teams/delete",
+      "description": "Delete a team.",
+      "method": "POST",
+      "uhash": "true",
+      "apiScope": "disbandTeam",
+      "parameters": [
+        "password"
+      ]
+    },
+    {
+      "endpoint": "teams/leave",
+      "description": "Leave a team.",
+      "method": "POST",
+      "uhash": "true",
+      "apiScope": "leaveTeam",
+    },
+    {
+      "endpoint": "teams/motd",
+      "description": "Post a message of the day (motd).",
+      "method": "POST",
+      "uhash": "true",
+      "apiScope": "updateMOTD",
+      "parameters": [
+        "message"
+      ]
+    },
+    {
+      "endpoint": "teams/search",
+      "description": "Search for teams.",
+      "method": "GET",
+      "uhash": "true",
+      "apiScope": "teamSearch",
+      "parameters": [
+        "invites",
+        "racesPlayed",
+        "speed"
+      ]
+    },
+    {
+      "endpoint": "teams/update",
+      "description": "Update a team.",
+      "method": "POST",
+      "uhash": "true",
+      "apiScope": "editTeam",
+      "parameters": [
+        "tag",
+        "name",
+        "tagColor",
+        "minRaces",
+        "minSpeed",
+        "otherRequirements",
+        "password",
+        "enrollment",
+        "autoRemove"
+      ]
+    }
+  ],
+  "miscellaneous": []
+}
