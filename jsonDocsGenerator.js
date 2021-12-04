@@ -31,7 +31,7 @@ const generateSection = (name, schemas) => {
 		const params = schema.parameters
 			? `\n\n**Params:** ${schema.parameters.join(', ')}`
 			: '';
-		const hash = schema.endpoint.replace(/[<>/]/g, '').toLowerCase();
+		const hash = schema.endpoint.replace(/[<>?|/]/g, '').toLowerCase();
 		const endpoint = schema.endpoint.split('/').splice(1).join('/');
 
 		endpointDocs += `
