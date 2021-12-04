@@ -87,9 +87,9 @@ Claim an achievement.
 
 ## Auth
   * [`auth/class-login/<sectionID>`](#v2authclass-loginsectionid)
-  * [`auth/login/<???>`](#v2authlogin???)
+  * [`auth/login/<???>`](#v2authlogin)
   * [`auth/login/username`](#v2authloginusername)
-  * [`auth/redirect/<facebook|google|clever>`](#v2authredirectfacebook|google|clever)
+  * [`auth/redirect/<facebook|google|clever>`](#v2authredirectfacebookgoogleclever)
   * [`auth/register/username`](#v2authregisterusername)
   * [`auth/reset-password`](#v2authreset-password)
   * [`auth/reset-password/change`](#v2authreset-passwordchange)
@@ -283,7 +283,7 @@ Verify an account's email address.
 ## Stats
 
 ## Teams
-  * [`<???>/invite`](#teams???invite)
+  * [`<???>/invite`](#teamsinvite)
   * [`<tag>`](#teamstag)
   * [`<teamID>/accept-invite`](#teamsteamidaccept-invite)
   * [`<teamID>/apply`](#teamsteamidapply)
