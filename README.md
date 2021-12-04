@@ -29,23 +29,23 @@ Documentation for the unofficial NitroType API
   * [Miscellaneous](#miscellaneous)
 
 ## Achievements
-  * [`achievements/check`](#v2achievementscheck)
-  * [`achievements/claim/<achievementID>`](#v2achievementsclaimachievementid)
-  * [`achievements/extra`](#v2achievementsextra)
+  * [`v2/achievements/check`](#v2achievementscheck)
+  * [`v2/achievements/claim/<achievementID>`](#v2achievementsclaimachievementid)
+  * [`v2/achievements/extra`](#v2achievementsextra)
 
 ### <code>v2/achievements/check</code>
 ???
 
 <table>
 	<tr>
-	<th>method</th>
-	<th>uhash</th>
-	<th>apiScope</th>
+		<th>method</th>
+		<th>uhash</th>
+		<th>apiScope</th>
 	</tr>
 	<tr>
-	<td>POST</td>
-	<td><code>true</code></td>
-	<td><code>"???"</code></td>
+		<td>POST</td>
+		<td><code>true</code></td>
+		<td><code>"???"</code></td>
 	</tr>
 </table>
 
@@ -56,14 +56,14 @@ Claim an achievement.
 
 <table>
 	<tr>
-	<th>method</th>
-	<th>uhash</th>
-	<th>apiScope</th>
+		<th>method</th>
+		<th>uhash</th>
+		<th>apiScope</th>
 	</tr>
 	<tr>
-	<td>GET</td>
-	<td><code>true</code></td>
-	<td><code>"claimAchievement"</code></td>
+		<td>GET</td>
+		<td><code>true</code></td>
+		<td><code>"claimAchievement"</code></td>
 	</tr>
 </table>
 
@@ -72,43 +72,43 @@ Claim an achievement.
 
 <table>
 	<tr>
-	<th>method</th>
-	<th>uhash</th>
-	<th>apiScope</th>
+		<th>method</th>
+		<th>uhash</th>
+		<th>apiScope</th>
 	</tr>
 	<tr>
-	<td>POST</td>
-	<td><code>true</code></td>
-	<td><code>"???"</code></td>
+		<td>POST</td>
+		<td><code>true</code></td>
+		<td><code>"???"</code></td>
 	</tr>
 </table>
 
 **Params:** id
 
 ## Auth
-  * [`auth/class-login/<sectionID>`](#v2authclass-loginsectionid)
-  * [`auth/login/<???>`](#v2authlogin)
-  * [`auth/login/username`](#v2authloginusername)
-  * [`auth/redirect/<facebook|google|clever>`](#v2authredirectfacebookgoogleclever)
-  * [`auth/register/username`](#v2authregisterusername)
-  * [`auth/reset-password`](#v2authreset-password)
-  * [`auth/reset-password/change`](#v2authreset-passwordchange)
-  * [`auth/validate-captcha`](#v2authvalidate-captcha)
-  * [`auth/validate-email`](#v2authvalidate-email)
+  * [`v2/auth/class-login/<sectionID>`](#v2authclass-loginsectionid)
+  * [`v2/auth/login/<???>`](#v2authlogin)
+  * [`v2/auth/login/username`](#v2authloginusername)
+  * [`v2/auth/redirect/<facebook|google|clever>`](#v2authredirectfacebookgoogleclever)
+  * [`v2/auth/register/username`](#v2authregisterusername)
+  * [`v2/auth/reset-password`](#v2authreset-password)
+  * [`v2/auth/reset-password/change`](#v2authreset-passwordchange)
+  * [`v2/auth/validate-captcha`](#v2authvalidate-captcha)
+  * [`v2/auth/validate-email`](#v2authvalidate-email)
 
 ### <code>v2/auth/class-login/\<sectionID></code>
 Login to a class.
 
 <table>
 	<tr>
-	<th>method</th>
-	<th>uhash</th>
-	<th>apiScope</th>
+		<th>method</th>
+		<th>uhash</th>
+		<th>apiScope</th>
 	</tr>
 	<tr>
-	<td>POST</td>
-	<td><code>false</code></td>
-	<td><code>"logInToClass"</code></td>
+		<td>POST</td>
+		<td><code>false</code></td>
+		<td><code>"logInToClass"</code></td>
 	</tr>
 </table>
 
@@ -119,14 +119,14 @@ Login to a class.
 
 <table>
 	<tr>
-	<th>method</th>
-	<th>uhash</th>
-	<th>apiScope</th>
+		<th>method</th>
+		<th>uhash</th>
+		<th>apiScope</th>
 	</tr>
 	<tr>
-	<td>POST</td>
-	<td><code>false</code></td>
-	<td><code>"login"</code></td>
+		<td>POST</td>
+		<td><code>false</code></td>
+		<td><code>"login"</code></td>
 	</tr>
 </table>
 
@@ -137,14 +137,14 @@ Login to an account.
 
 <table>
 	<tr>
-	<th>method</th>
-	<th>uhash</th>
-	<th>apiScope</th>
+		<th>method</th>
+		<th>uhash</th>
+		<th>apiScope</th>
 	</tr>
 	<tr>
-	<td>POST</td>
-	<td><code>false</code></td>
-	<td><code>"login"</code></td>
+		<td>POST</td>
+		<td><code>false</code></td>
+		<td><code>"login"</code></td>
 	</tr>
 </table>
 
@@ -155,14 +155,14 @@ Redirect to third-party login.
 
 <table>
 	<tr>
-	<th>method</th>
-	<th>uhash</th>
-	<th>apiScope</th>
+		<th>method</th>
+		<th>uhash</th>
+		<th>apiScope</th>
 	</tr>
 	<tr>
-	<td>GET</td>
-	<td><code>false</code></td>
-	<td><code>"???"</code></td>
+		<td>GET</td>
+		<td><code>false</code></td>
+		<td><code>"???"</code></td>
 	</tr>
 </table>
 
@@ -171,14 +171,14 @@ Register (and qualify) an account.
 
 <table>
 	<tr>
-	<th>method</th>
-	<th>uhash</th>
-	<th>apiScope</th>
+		<th>method</th>
+		<th>uhash</th>
+		<th>apiScope</th>
 	</tr>
 	<tr>
-	<td>POST</td>
-	<td><code>false</code></td>
-	<td><code>"signup"</code></td>
+		<td>POST</td>
+		<td><code>false</code></td>
+		<td><code>"signup"</code></td>
 	</tr>
 </table>
 
@@ -189,14 +189,14 @@ Reset an account's password.
 
 <table>
 	<tr>
-	<th>method</th>
-	<th>uhash</th>
-	<th>apiScope</th>
+		<th>method</th>
+		<th>uhash</th>
+		<th>apiScope</th>
 	</tr>
 	<tr>
-	<td>POST</td>
-	<td><code>false</code></td>
-	<td><code>"forgotPassword"</code></td>
+		<td>POST</td>
+		<td><code>false</code></td>
+		<td><code>"forgotPassword"</code></td>
 	</tr>
 </table>
 
@@ -207,14 +207,14 @@ Reset an account's password.
 
 <table>
 	<tr>
-	<th>method</th>
-	<th>uhash</th>
-	<th>apiScope</th>
+		<th>method</th>
+		<th>uhash</th>
+		<th>apiScope</th>
 	</tr>
 	<tr>
-	<td>POST</td>
-	<td><code>true</code></td>
-	<td><code>"resetPassword"</code></td>
+		<td>POST</td>
+		<td><code>true</code></td>
+		<td><code>"resetPassword"</code></td>
 	</tr>
 </table>
 
@@ -225,14 +225,14 @@ Submit a captcha user response token.
 
 <table>
 	<tr>
-	<th>method</th>
-	<th>uhash</th>
-	<th>apiScope</th>
+		<th>method</th>
+		<th>uhash</th>
+		<th>apiScope</th>
 	</tr>
 	<tr>
-	<td>POST</td>
-	<td><code>false</code></td>
-	<td><code>"validateCaptcha"</code></td>
+		<td>POST</td>
+		<td><code>false</code></td>
+		<td><code>"validateCaptcha"</code></td>
 	</tr>
 </table>
 
@@ -243,26 +243,257 @@ Verify an account's email address.
 
 <table>
 	<tr>
-	<th>method</th>
-	<th>uhash</th>
-	<th>apiScope</th>
+		<th>method</th>
+		<th>uhash</th>
+		<th>apiScope</th>
 	</tr>
 	<tr>
-	<td>POST</td>
-	<td><code>true</code></td>
-	<td><code>"validateEmail"</code></td>
+		<td>POST</td>
+		<td><code>true</code></td>
+		<td><code>"validateEmail"</code></td>
 	</tr>
 </table>
 
 **Params:** hash, userID
 
 ## Cars
+  * [`cars/arrange`](#carsarrange)
+
+### <code>cars/arrange</code>
+Rearrange cars or add/remove garage sections.
+
+<table>
+	<tr>
+		<th>method</th>
+		<th>uhash</th>
+		<th>apiScope</th>
+	</tr>
+	<tr>
+		<td>POST</td>
+		<td><code>true</code></td>
+		<td><code>"???"</code></td>
+	</tr>
+</table>
+
+**Params:** garage
 
 ## Classes
+  * [`class/motd`](#classmotd)
+  * [`classes`](#classes)
+
+### <code>class/motd</code>
+Post a message of the day (motd).
+
+<table>
+	<tr>
+		<th>method</th>
+		<th>uhash</th>
+		<th>apiScope</th>
+	</tr>
+	<tr>
+		<td>POST</td>
+		<td><code>true</code></td>
+		<td><code>"updateMOTD"</code></td>
+	</tr>
+</table>
+
+**Params:** message
+
+### <code>classes</code>
+???
+
+<table>
+	<tr>
+		<th>method</th>
+		<th>uhash</th>
+		<th>apiScope</th>
+	</tr>
+	<tr>
+		<td>GET</td>
+		<td><code>true</code></td>
+		<td><code>"fetchDetails"</code></td>
+	</tr>
+</table>
+
+**Params:** ???: {}
 
 ## Friends
+  * [`friend-requests/<userID>/accept`](#friend-requestsuseridaccept)
+  * [`friend-requests/<userID>/deny`](#friend-requestsuseriddeny)
+  * [`friend-requests/accept-all`](#friend-requestsaccept-all)
+  * [`friend-requests/deny-all`](#friend-requestsdeny-all)
+  * [`friends`](#friends)
+  * [`friends/<userID>/delete`](#friendsuseriddelete)
+  * [`friends/<userID>/request`](#friendsuseridrequest)
+  * [`friends/<userID>/sendcash`](#friendsuseridsendcash)
+
+### <code>friend-requests/\<userID>/accept</code>
+Accept a friend request.
+
+<table>
+	<tr>
+		<th>method</th>
+		<th>uhash</th>
+		<th>apiScope</th>
+	</tr>
+	<tr>
+		<td>POST</td>
+		<td><code>true</code></td>
+		<td><code>"acceptRequest"</code></td>
+	</tr>
+</table>
+
+### <code>friend-requests/\<userID>/deny</code>
+Deny a friend request.
+
+<table>
+	<tr>
+		<th>method</th>
+		<th>uhash</th>
+		<th>apiScope</th>
+	</tr>
+	<tr>
+		<td>POST</td>
+		<td><code>true</code></td>
+		<td><code>"ignoreRequest"</code></td>
+	</tr>
+</table>
+
+### <code>friend-requests/accept-all</code>
+Accept all friend requests.
+
+<table>
+	<tr>
+		<th>method</th>
+		<th>uhash</th>
+		<th>apiScope</th>
+	</tr>
+	<tr>
+		<td>POST</td>
+		<td><code>true</code></td>
+		<td><code>"acceptAllRequests"</code></td>
+	</tr>
+</table>
+
+### <code>friend-requests/deny-all</code>
+Deny all friend requests.
+
+<table>
+	<tr>
+		<th>method</th>
+		<th>uhash</th>
+		<th>apiScope</th>
+	</tr>
+	<tr>
+		<td>POST</td>
+		<td><code>true</code></td>
+		<td><code>"ignoreAllRequests"</code></td>
+	</tr>
+</table>
+
+### <code>friends</code>
+Fetch friends data.
+
+<table>
+	<tr>
+		<th>method</th>
+		<th>uhash</th>
+		<th>apiScope</th>
+	</tr>
+	<tr>
+		<td>GET</td>
+		<td><code>true</code></td>
+		<td><code>"getFriends"</code></td>
+	</tr>
+</table>
+
+### <code>friends/\<userID>/delete</code>
+Remove a friend.
+
+<table>
+	<tr>
+		<th>method</th>
+		<th>uhash</th>
+		<th>apiScope</th>
+	</tr>
+	<tr>
+		<td>POST</td>
+		<td><code>true</code></td>
+		<td><code>"removeFriend"</code></td>
+	</tr>
+</table>
+
+### <code>friends/\<userID>/request</code>
+Send a friend request.
+
+<table>
+	<tr>
+		<th>method</th>
+		<th>uhash</th>
+		<th>apiScope</th>
+	</tr>
+	<tr>
+		<td>POST</td>
+		<td><code>true</code></td>
+		<td><code>"???"</code></td>
+	</tr>
+</table>
+
+### <code>friends/\<userID>/sendcash</code>
+Send cash to a friend.
+
+<table>
+	<tr>
+		<th>method</th>
+		<th>uhash</th>
+		<th>apiScope</th>
+	</tr>
+	<tr>
+		<td>POST</td>
+		<td><code>true</code></td>
+		<td><code>"sendCash"</code></td>
+	</tr>
+</table>
+
+**Params:** amount, password, playersCash, recipient, feePercent
 
 ## Items
+  * [`items/cash-gifts`](#itemscash-gifts)
+  * [`items/equip-loot`](#itemsequip-loot)
+
+### <code>items/cash-gifts</code>
+Fetch any pending cash gifts.
+
+<table>
+	<tr>
+		<th>method</th>
+		<th>uhash</th>
+		<th>apiScope</th>
+	</tr>
+	<tr>
+		<td>POST</td>
+		<td><code>true</code></td>
+		<td><code>"getPendingCashGifts"</code></td>
+	</tr>
+</table>
+
+### <code>items/equip-loot</code>
+Customize cars and loot.
+
+<table>
+	<tr>
+		<th>method</th>
+		<th>uhash</th>
+		<th>apiScope</th>
+	</tr>
+	<tr>
+		<td>POST</td>
+		<td><code>true</code></td>
+		<td><code>"equipLoot"</code></td>
+	</tr>
+</table>
+
+**Params:** {Number}[type|id|hueAngle], {Number}[ids][{Number}], ???, ...
 
 ## News
 
@@ -283,33 +514,33 @@ Verify an account's email address.
 ## Stats
 
 ## Teams
-  * [`<???>/invite`](#teamsinvite)
-  * [`<tag>`](#teamstag)
-  * [`<teamID>/accept-invite`](#teamsteamidaccept-invite)
-  * [`<teamID>/apply`](#teamsteamidapply)
-  * [`<teamId>/ignore-invite`](#teamsteamidignore-invite)
-  * [`applications`](#teamsapplications)
-  * [`boost`](#teamsboost)
-  * [`create`](#teamscreate)
-  * [`delete`](#teamsdelete)
-  * [`leave`](#teamsleave)
-  * [`motd`](#teamsmotd)
-  * [`search`](#teamssearch)
-  * [`update`](#teamsupdate)
+  * [`teams/<???>/invite`](#teamsinvite)
+  * [`teams/<tag>`](#teamstag)
+  * [`teams/<teamID>/accept-invite`](#teamsteamidaccept-invite)
+  * [`teams/<teamID>/apply`](#teamsteamidapply)
+  * [`teams/<teamId>/ignore-invite`](#teamsteamidignore-invite)
+  * [`teams/applications`](#teamsapplications)
+  * [`teams/boost`](#teamsboost)
+  * [`teams/create`](#teamscreate)
+  * [`teams/delete`](#teamsdelete)
+  * [`teams/leave`](#teamsleave)
+  * [`teams/motd`](#teamsmotd)
+  * [`teams/search`](#teamssearch)
+  * [`teams/update`](#teamsupdate)
 
 ### <code>teams/\<???>/invite</code>
 ???
 
 <table>
 	<tr>
-	<th>method</th>
-	<th>uhash</th>
-	<th>apiScope</th>
+		<th>method</th>
+		<th>uhash</th>
+		<th>apiScope</th>
 	</tr>
 	<tr>
-	<td>POST</td>
-	<td><code>false</code></td>
-	<td><code>"???"</code></td>
+		<td>POST</td>
+		<td><code>false</code></td>
+		<td><code>"???"</code></td>
 	</tr>
 </table>
 
@@ -318,14 +549,14 @@ Fetch information from a team.
 
 <table>
 	<tr>
-	<th>method</th>
-	<th>uhash</th>
-	<th>apiScope</th>
+		<th>method</th>
+		<th>uhash</th>
+		<th>apiScope</th>
 	</tr>
 	<tr>
-	<td>GET</td>
-	<td><code>true</code></td>
-	<td><code>"fetchDetails"</code></td>
+		<td>GET</td>
+		<td><code>true</code></td>
+		<td><code>"fetchDetails"</code></td>
 	</tr>
 </table>
 
@@ -334,14 +565,14 @@ Accept a team invite.
 
 <table>
 	<tr>
-	<th>method</th>
-	<th>uhash</th>
-	<th>apiScope</th>
+		<th>method</th>
+		<th>uhash</th>
+		<th>apiScope</th>
 	</tr>
 	<tr>
-	<td>POST</td>
-	<td><code>true</code></td>
-	<td><code>"acceptTeamInvite"</code></td>
+		<td>POST</td>
+		<td><code>true</code></td>
+		<td><code>"acceptTeamInvite"</code></td>
 	</tr>
 </table>
 
@@ -350,14 +581,14 @@ Apply for a team.
 
 <table>
 	<tr>
-	<th>method</th>
-	<th>uhash</th>
-	<th>apiScope</th>
+		<th>method</th>
+		<th>uhash</th>
+		<th>apiScope</th>
 	</tr>
 	<tr>
-	<td>POST</td>
-	<td><code>true</code></td>
-	<td><code>"applyForTeam"</code></td>
+		<td>POST</td>
+		<td><code>true</code></td>
+		<td><code>"applyForTeam"</code></td>
 	</tr>
 </table>
 
@@ -366,14 +597,14 @@ Ignore a team invite.
 
 <table>
 	<tr>
-	<th>method</th>
-	<th>uhash</th>
-	<th>apiScope</th>
+		<th>method</th>
+		<th>uhash</th>
+		<th>apiScope</th>
 	</tr>
 	<tr>
-	<td>POST</td>
-	<td><code>true</code></td>
-	<td><code>"ignoreTeamInvite"</code></td>
+		<td>POST</td>
+		<td><code>true</code></td>
+		<td><code>"ignoreTeamInvite"</code></td>
 	</tr>
 </table>
 
@@ -382,14 +613,14 @@ Fetch team applications.
 
 <table>
 	<tr>
-	<th>method</th>
-	<th>uhash</th>
-	<th>apiScope</th>
+		<th>method</th>
+		<th>uhash</th>
+		<th>apiScope</th>
 	</tr>
 	<tr>
-	<td>GET</td>
-	<td><code>true</code></td>
-	<td><code>"fetchApplications"</code></td>
+		<td>GET</td>
+		<td><code>true</code></td>
+		<td><code>"fetchApplications"</code></td>
 	</tr>
 </table>
 
@@ -398,14 +629,14 @@ Add a reaction (boost) to a motd.
 
 <table>
 	<tr>
-	<th>method</th>
-	<th>uhash</th>
-	<th>apiScope</th>
+		<th>method</th>
+		<th>uhash</th>
+		<th>apiScope</th>
 	</tr>
 	<tr>
-	<td>POST</td>
-	<td><code>true</code></td>
-	<td><code>"addMotdBoost"</code></td>
+		<td>POST</td>
+		<td><code>true</code></td>
+		<td><code>"addMotdBoost"</code></td>
 	</tr>
 </table>
 
@@ -416,14 +647,14 @@ Create a team.
 
 <table>
 	<tr>
-	<th>method</th>
-	<th>uhash</th>
-	<th>apiScope</th>
+		<th>method</th>
+		<th>uhash</th>
+		<th>apiScope</th>
 	</tr>
 	<tr>
-	<td>POST</td>
-	<td><code>true</code></td>
-	<td><code>"createTeam"</code></td>
+		<td>POST</td>
+		<td><code>true</code></td>
+		<td><code>"createTeam"</code></td>
 	</tr>
 </table>
 
@@ -434,14 +665,14 @@ Delete a team.
 
 <table>
 	<tr>
-	<th>method</th>
-	<th>uhash</th>
-	<th>apiScope</th>
+		<th>method</th>
+		<th>uhash</th>
+		<th>apiScope</th>
 	</tr>
 	<tr>
-	<td>POST</td>
-	<td><code>true</code></td>
-	<td><code>"disbandTeam"</code></td>
+		<td>POST</td>
+		<td><code>true</code></td>
+		<td><code>"disbandTeam"</code></td>
 	</tr>
 </table>
 
@@ -452,14 +683,14 @@ Leave a team.
 
 <table>
 	<tr>
-	<th>method</th>
-	<th>uhash</th>
-	<th>apiScope</th>
+		<th>method</th>
+		<th>uhash</th>
+		<th>apiScope</th>
 	</tr>
 	<tr>
-	<td>POST</td>
-	<td><code>true</code></td>
-	<td><code>"leaveTeam"</code></td>
+		<td>POST</td>
+		<td><code>true</code></td>
+		<td><code>"leaveTeam"</code></td>
 	</tr>
 </table>
 
@@ -468,14 +699,14 @@ Post a message of the day (motd).
 
 <table>
 	<tr>
-	<th>method</th>
-	<th>uhash</th>
-	<th>apiScope</th>
+		<th>method</th>
+		<th>uhash</th>
+		<th>apiScope</th>
 	</tr>
 	<tr>
-	<td>POST</td>
-	<td><code>true</code></td>
-	<td><code>"updateMOTD"</code></td>
+		<td>POST</td>
+		<td><code>true</code></td>
+		<td><code>"updateMOTD"</code></td>
 	</tr>
 </table>
 
@@ -486,14 +717,14 @@ Search for teams.
 
 <table>
 	<tr>
-	<th>method</th>
-	<th>uhash</th>
-	<th>apiScope</th>
+		<th>method</th>
+		<th>uhash</th>
+		<th>apiScope</th>
 	</tr>
 	<tr>
-	<td>GET</td>
-	<td><code>true</code></td>
-	<td><code>"teamSearch"</code></td>
+		<td>GET</td>
+		<td><code>true</code></td>
+		<td><code>"teamSearch"</code></td>
 	</tr>
 </table>
 
@@ -504,14 +735,14 @@ Update a team.
 
 <table>
 	<tr>
-	<th>method</th>
-	<th>uhash</th>
-	<th>apiScope</th>
+		<th>method</th>
+		<th>uhash</th>
+		<th>apiScope</th>
 	</tr>
 	<tr>
-	<td>POST</td>
-	<td><code>true</code></td>
-	<td><code>"editTeam"</code></td>
+		<td>POST</td>
+		<td><code>true</code></td>
+		<td><code>"editTeam"</code></td>
 	</tr>
 </table>
 
