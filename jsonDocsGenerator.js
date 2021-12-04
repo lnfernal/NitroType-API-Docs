@@ -32,7 +32,6 @@ const generateSection = (name, schemas) => {
 			? `\n\n**Params:** ${schema.parameters.join(', ')}`
 			: '';
 		const hash = schema.endpoint.replace(/[<>?|/]/g, '').toLowerCase();
-		const endpoint = schema.endpoint.split('/').splice(1).join('/');
 
 		endpointDocs += `
 ### <code>${schema.endpoint.replace(/</g, '\\<')}</code>
@@ -40,18 +39,18 @@ ${schema.description}
 
 <table>
 	<tr>
-	<th>method</th>
-	<th>uhash</th>
-	<th>apiScope</th>
+		<th>method</th>
+		<th>uhash</th>
+		<th>apiScope</th>
 	</tr>
 	<tr>
-	<td>${schema.method}</td>
-	<td><code>${schema.uhash}</code></td>
-	<td><code>"${schema.apiScope}"</code></td>
+		<td>${schema.method}</td>
+		<td><code>${schema.uhash}</code></td>
+		<td><code>"${schema.apiScope}"</code></td>
 	</tr>
 </table>${params}
 `;
-		endpointLinks += `\n  * [\`${endpoint}\`](#${hash})`;
+		endpointLinks += `\n  * [\`${schema.endpoint}\`](#${hash})`;
 	}
 
 	return endpointLinks + '\n' + endpointDocs;
